@@ -1,6 +1,6 @@
 #import <React/RCTBridgeModule.h>
 
-#import <LineSDK/LineSDK.h>
+#import <LineSDK.h>
 
 @interface LineLoginManager : NSObject <RCTBridgeModule, LineSDKLoginDelegate>
 {
